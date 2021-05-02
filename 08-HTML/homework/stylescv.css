@@ -1,0 +1,37 @@
+body{
+    display: -webkit-flex;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#containerLeft{
+    background: white;
+
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+#header{
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100px;
+    float:left;
+  }
+
+#headerText{
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+#containerRight{
+    background: rgb(69, 69, 175);
+    -webkit-flex: 1;
+    flex: 1;
+}

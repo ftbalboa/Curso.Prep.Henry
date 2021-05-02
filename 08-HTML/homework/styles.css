@@ -1,0 +1,35 @@
+/*Para asegurar igual estructura en todos los elementos*/
+/* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }*/
+
+
+body{
+    background-color: transparent;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+}
+
+div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    color:blue;
+}
+img{
+    max-width:300px;
+}
+#thirdDiv{
+    max-width:500px;
+    max-height:600px;
+    background: red;
+    padding: 50px;
+    border:100px solid black;
+}
+#spanId{
+    font-size:18px;
+    margin:50px;
+}
